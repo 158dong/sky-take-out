@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <trees>
+     <tree path="/sky-common/src/main/java/com/sky/context/BaseContext.java" title="用来创建ThreadLocal线程获取每次添加员工的userId"
+           extension="" presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+     <tree path="/sky-common/src/main/java/com/sky/context" title="用来创建ThreadLocal线程获取每次添加员工的userId"/>
+     <tree path="/sky-common/src/main/java/com/sky/constant" title="字符串常用变量"/>
+     <tree path="/sky-common/src/main/java/com/sky/constant/MessageConstant.java" title="异常消息"/>
+     <tree path="/sky-common/src/main/java/com/sky/constant/PasswordConstant.java" title="默认信息" extension=""
+           presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+     <tree path="/sky-common/src/main/java/com/sky/constant/StatusConstant.java" title="状态消息"/>
+     <tree path="/sky-common/src/main/java/com/sky/result/Result.java" title="REST风格返回消息"/>
+     <tree path="/sky-common/src/main/java/com/sky/result" title="返回信息"/>
+     <tree path="/sky-common/src/main/java/com/sky/utils" title="工具类"/>
+    <tree path="/sky-common/src/main/java/com/sky/utils/JwtUtil.java" title="JWT令牌"/>
+    <tree path="/sky-server/src/main/java/com/sky/config" title="配置类"/>
+    <tree path="/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" title="用于Swagger接口和其他配置" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/sky-server/src/main/java/com/sky/controller/admin" title="控制层"/>
+    <tree path="/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" title="员工相关接口控制类" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/sky-server/src/main/java/com/sky/handler" title="异常处理器"/>
+    <tree path="/sky-server/src/main/java/com/sky/handler/GlobalExceptionHandler.java" title="全局异常处理器"/>
+    <tree path="/sky-server/src/main/java/com/sky/interceptor" title="拦截器"/>
+    <tree path="/sky-server/src/main/java/com/sky/interceptor/JwtTokenAdminInterceptor.java" title="JWT拦截器"/>
+    <tree path="/sky-server/src/main/java/com/sky/mapper" title="持久层"/>
+    <tree path="/sky-server/src/main/java/com/sky/service" title="数据链路层"/>
+    <tree path="/sky-server/src/main/java/com/sky/SkyApplication.java" title="启动类"/>
+    <tree path="/sky-common/src/main/java/com/sky/result/PageResult.java" title="分页结果返回"/>
+    <tree path="/sky-pojo/src/main/java/com/sky/dto/EmployeePageQueryDTO.java" title="员工分页查询前端传过来的属性"/>
+    <tree path="/sky-pojo/src/main/java/com/sky/dto" title="前端传过来的各个模块所需的属性"/>
+    <tree path="/sky-common/src/main/java/com/sky/json/JacksonObjectMapper.java" title="自己设定的日期显示格式"/>
+    <tree path="/sky-server/src/main/java/com/sky/controller/admin/CategoryController.java" title="分类相关接口控制类"
+          extension="" presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/sky-server/src/main/java/com/sky/annotation"
+          title="自定义注解，用于AOP切入（每次insert或者update的时候都要进行更新修改时间，所以用AOP切面减少冗余代码）" extension="" presentableText=""
+          tooltipTitle=""/>
+    <tree path="/sky-common/src/main/java/com/sky/enumeration" title="枚举（用于AOP切入insert和update的更新人操作）"/>
+    <tree path="/sky-server/src/main/java/com/sky/aspect" title="AOP切面"/>
+    <tree path="/sky-common/src/main/java/com/sky/constant/AutoFillConstant.java" title="各公共字段常量（AOP）" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/sky-server/src/main/java/com/sky/controller/admin/SetmealController.java" title="套餐相关接口"/>
+    <tree path="/sky-server/src/main/java/com/sky/controller/admin/DishController.java" title="菜品相关接口"/>
+</trees>
